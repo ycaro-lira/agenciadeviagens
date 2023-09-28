@@ -2,8 +2,8 @@
 Sistema de Agência de Viagens
 Este é um projeto de exemplo para um Sistema de Agência de Viagens, que inclui classes para representar Clientes, Passagens e Compras.
 
-#Classes UML
-Cliente
+##Classes UML
+#Cliente
 A classe Cliente representa os clientes da agência de viagens. Ela possui os seguintes atributos:
 
 id_Cliente (String): O identificador único do cliente.
