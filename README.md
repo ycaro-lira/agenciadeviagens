@@ -1,4 +1,4 @@
-# primeiraentrega
+# agenciadeviagens
 Sistema de Agência de Viagens
 Este é um projeto de exemplo para um Sistema de Agência de Viagens, que inclui classes para representar Clientes, Passagens e Compras.
 
