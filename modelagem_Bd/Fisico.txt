@@ -1,0 +1,32 @@
+CREATE DATABASE agenciadeviagens;
+
+ 
+
+USE agenciadeviagens;
+
+
+
+CREATE TABLE cliente (
+id_cliente VARCHAR(50) PRIMARY KEY,
+nome VARCHAR(50),
+email VARCHAR(50),
+senha VARCHAR(50)
+);
+
+CREATE TABLE passagem (
+id_passagem VARCHAR(50) PRIMARY KEY,
+saindo VARCHAR(50),
+indo VARCHAR(50),
+valor VARCHAR(50)
+);
+
+CREATE TABLE compra (
+id_compra VARCHAR(50) PRIMARY KEY,
+data VARCHAR(50),
+id_passagem VARCHAR(50),
+id_cliente VARCHAR(50),
+FOREIGN KEY(id_cliente) REFERENCES cliente (id_cliente)
+);
+
+ALTER TABLE compra ADD FOREIGN KEY(id_passagem) REFERENCES passagem (id_passagem)
+
