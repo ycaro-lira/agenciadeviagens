@@ -18,7 +18,7 @@ public class ClienteDao {
     }
 
     private void abrirConexao() throws Exception {
-        conexao = Conexao.createConnectionToMySQL(); // Correção: Deve chamar o método createConnectionToMySQL()
+        conexao = Conexao.createConnectionToMySQL(); 
     }
 
     private void fecharConexao() {

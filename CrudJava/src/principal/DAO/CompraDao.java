@@ -20,7 +20,7 @@ public class CompraDao {
     }
 
     private void abrirConexao() throws Exception {
-        conexao = Conexao.createConnectionToMySQL(); // Certifique-se de ter o método createConnectionToMySQL adequado na classe Conexao
+        conexao = Conexao.createConnectionToMySQL(); 
     }
 
     private void fecharConexao() {
@@ -35,7 +35,7 @@ public class CompraDao {
 
     public List<Compra> listarCompras() {
         List<Compra> compras = new ArrayList<>();
-        String sql = "SELECT * FROM compra"; // Certifique-se de que a tabela se chame "Compras"
+        String sql = "SELECT * FROM compra"; 
 
         try {
             PreparedStatement stmt = conexao.prepareStatement(sql);

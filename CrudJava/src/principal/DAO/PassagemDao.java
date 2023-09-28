@@ -18,7 +18,7 @@ public class PassagemDao {
     }
 
     private void abrirConexao() throws Exception {
-        conexao = Conexao.createConnectionToMySQL(); // Certifique-se de que a classe Conexao forneça o método 'createConnectionToMySQL' adequado
+        conexao = Conexao.createConnectionToMySQL(); 
     }
 
     private void fecharConexao() {
