@@ -26,3 +26,6 @@ id_compra (String): O identificador único da compra.
 data (String): A data da compra.
 passagem (Passagem): A passagem associada à compra.
 cliente (Cliente): O cliente que fez a compra.
+
+link do Vídeo da apresentação do projeto: 
+https://www.linkedin.com/feed/update/urn:li:activity:7125840350346125313/?originTrackingId=JogvgCuESl6cWP4qB2AieQ%3D%3D
